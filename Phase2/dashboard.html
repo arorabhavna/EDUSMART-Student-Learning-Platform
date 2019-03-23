@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <title>LearnSmart</title>
+  <style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+</style>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+  body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+  }
+  h3{
+    color:black;
+  }
+  h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 7px;
+	
+	
+  }
+  h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 30px;
+  }  
+  .jumbotron {
+    background-color: orange;
+    color: #fff;
+    padding: 30px 25px;
+    font-family: Montserrat, sans-serif;
+	height: 10px;
+	width: 100%;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #191970;
+    font-size: 50px;
+  }
+  .logo {
+    color: #191970;
+    font-size: 200px;
+  }
+  .thumbnail {
+    padding: 0 0 15px 0;
+    border: none;
+    border-radius: 0;
+  }
+  .thumbnail img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10px;
+  }
+  .carousel-control.right, .carousel-control.left {
+    background-image: none;
+    color: #191970;
+  }
+  .carousel-indicators li {
+    border-color: #191970;
+  }
+  .carousel-indicators li.active {
+    background-color: #191970;
+  }
+  .item h4 {
+    font-size: 19px;
+    line-height: 1.375em;
+    font-weight: 400;
+    font-style: italic;
+    margin: 70px 0;
+  }
+  .item span {
+    font-style: normal;
+  }
+  .panel {
+    border: 1px solid #191970; 
+    border-radius:0 !important;
+    transition: box-shadow 0.5s;
+  }
+  .panel:hover {
+    box-shadow: 5px 0px 40px rgba(0,0,0, .2);
+  }
+  .panel-footer .btn:hover {
+    border: 1px solid #191970;
+    background-color: #fff !important;
+    color: #191970;
+  }
+  .panel-heading {
+    color: #fff !important;
+    background-color: #191970 !important;
+    padding: 25px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+  }
+  .panel-footer {
+    background-color: white !important;
+  }
+  .panel-footer h3 {
+    font-size: 32px;
+  }
+  .panel-footer h4 {
+    color: #aaa;
+    font-size: 14px;
+  }
+  .panel-footer .btn {
+    margin: 15px 0;
+    background-color: #191970;
+    color: #fff;
+  }
+  .navbar {
+    margin-bottom: 0;
+    background-color: #191970;
+    z-index: 9999;
+    border: 0;
+    font-size: 12px !important;
+    line-height: 1.42857143 !important;
+    letter-spacing: 4px;
+    border-radius: 0;
+    font-family: Montserrat, sans-serif;
+  }
+  .navbar li a, .navbar .navbar-brand {
+    color: #fff !important;
+  }
+  .navbar-nav li a:hover, .navbar-nav li.active a {
+    color: #191970 !important;
+    background-color: #fff !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: transparent;
+    color: #fff !important;
+  }
+  footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: #191970;
+  }
+  .slideanim {visibility:hidden;}
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 1s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+    .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+    }
+  }
+  @media screen and (max-width: 480px) {
+    .logo {
+      font-size: 150px;
+    }
+  }
+  </style>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+
+<nav class="navbar navbar-default navbar-fixed-top " style="background-color: #202F3F   ">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <div class="nav navbar-brand navbar-left"></div>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <a class="navbar-brand navbar-left" href="#myPage"><big><b>LEARN SMART<b></big></a>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#about"><big><b>ABOUT</b></big></a></li>
+        <li><a href="#courses"><big><b>COURSES</b></big></a></li>
+        <li><a href="#notes"><big><b>NOTES</b></big></a></li>
+        <li><a href="#tests" class="navbar-left"><big><b>ASSESMENT</b></big></a></li>
+        
+        
+      </ul>
+    </div>
+  </div>
+
+
+<div style="height:30px ;width:100%; background-color:#cbf55a">
+
+</div></nav>
+  
+  
+</div>
+<body class=" w3-content" style="max-width:1600px">
+<br><br><br><br>
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-collapse w3-white w3-animate-left" style="z-index:3;width:300px;" id="mySidebar"><br>
+  <div class="w3-container">
+    <a href="#" onclick="w3_close()" class="w3-hide-large w3-right w3-jumbo w3-padding w3-hover-grey" title="close menu">
+      <i class="fa fa-remove"></i>
+    </a>
+    <img src="avatar.png" style="width:45%;" class="w3-round"><br><br>
+    <h4><b>STUDENT NAME</b></h4>
+    <p class="w3-text-grey">BTech \ BRANCH \</p>
+  </div>
+  <div class="w3-bar-block">
+    <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-th-large fa-fw w3-margin-right"></i>ABOUT</a> 
+    <a href="#tests" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-file-text fa-fw w3-margin-right"></i>TESTS</a> 
+    <a href="#notes" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-pencil fa-fw w3-margin-right"></i>NOTES</a>
+    <a href="#courses" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-book fa-fw w3-margin-right"></i>COURSES</a>
+    <a href="#progress" onclick="w3_close()" class="w3-bar-item w3-button w3-padding"><i class="fa fa-line-chart fa-fw w3-margin-right"></i>PROGRESS</a>
+  </div>
+  
+</nav>
+
+<!-- Overlay effect when opening sidebar on small screens -->
+<div class="w3-overlay w3-hide-large w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+<!-- !PAGE CONTENT! -->
+<div class="w3-main" style="margin-left:300px">
+
+  <!-- Header -->
+  <header id="portfolio">
+    <a href="#"><img src="/w3images/avatar_g2.jpg" style="width:65px;" class="w3-circle w3-right w3-margin w3-hide-large w3-hover-opacity"></a>
+    <span class="w3-button w3-hide-large w3-xxlarge w3-hover-text-grey" onclick="w3_open()"><i class="fa fa-bars"></i></span>
+    
+  </header>
+  
+  <h3 id="about"><b>About Me</b></h3>
+    <p>Just me, myself and I, exploring the universe of unknownment. I have a heart of love and an interest of lorem ipsum and mauris neque quam blog. I want to share my world with you. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+    <hr>
+
+    
+    <h3><b>My Notes</b></h3>
+    <div class="w3-section  w3-padding-16">
+      <span class="w3-margin-right">Filter:</span> 
+      <button class="w3-button w3-black">ALL</button>
+      <button class="w3-button w3-white"><i class="fa fa-user w3-margin-right"></i>Faculty</button>
+      <button class="w3-button w3-white w3-hide-small"><i class="fa fa-book w3-margin-right"></i>Courses</button>
+      <hr>
+    </div>
+    
+
+
+
+  <!-- First Photo Grid-->
+  <div class="w3-row-padding" id="notes">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="some.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><u>Conditional Statements in C</u></b></p>
+        <p>qweqtye qgwrrg fiuwfk kwefv vwefiwf goiwegfweh wduiewffwge  dwefdiu weydywwe ufguwegf fewif bweufgiw vcwiue</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="some.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><u>Conditional Statements in Python</u></b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="some.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><u>Brute Force Approach to Algorithms</u></b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Second Photo Grid-->
+  <div class="w3-row-padding">
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="some.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><u>More on VLSI</u></b></p>
+        <p>qwequi qwgeoiqwg fbw dwfh, euwfguw vfuew uwgdih dfwve justtyr ,qdqvd.uwegwfei bdweug dewj digld diwiof. </p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="some.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><u>Heap Construction and heapsort</u></b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="some.jpg" alt="" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b><u>Implementing lambda functions in python</u></b></p>
+        <p>Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Pagination -->
+  <div class="w3-center w3-padding-32">
+    <div class="w3-bar">
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">«</a>
+      <a href="#" class="w3-bar-item w3-black w3-button">1</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">2</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">3</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">4</a>
+      <a href="#" class="w3-bar-item w3-button w3-hover-black">»</a>
+    </div>
+  </div>
+
+  <!-- Images of Me -->
+  <div class="w3-row-padding w3-padding-16" id="about">
+    <div class="w3-col m6">
+      <img src="some.jpg" alt="" style="width:100%">
+    </div>
+    <div class="w3-col m6">
+      <img src="some.jpg" alt="" style="width:100%">
+    </div>
+  </div>
+
+  <div id="tests" class="w3-container w3-padding-large" style="margin-bottom:32px">
+    
+    <h3><b>Progress Analysis</b></h3>
+    
+    <!-- Progress bars / Skills -->
+    <p>Problem Solving in C</p>
+    <div class="w3-white">
+      <div class="w3-container  w3-padding w3-center" style="width:95%;background-color:#49DD8E"">95%</div>
+    </div>
+    <p>Data Structures</p>
+    <div class="w3-white">
+      <div class="w3-container  w3-padding w3-center" style="width:85%; background-color:#FF605F">85%</div>
+    </div>
+    <p>Algorithms</p>
+    <div class="w3-white">
+      <div class="w3-container w3-blue w3-padding w3-center" style="width:80%;background-color:#AE99FF"">80%</div>
+    </div>
+    <p>
+      <button class="w3-button  w3-padding-large w3-margin-top w3-margin-bottom" style="background-color: gold">
+        <i class="fa fa-download w3-margin-right"></i>Download Progress
+      </button>
+    </p>
+    <hr>
+    
+    
+      
+      
+      
+      
+  
+
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-32 " style="background-color: ">
+  
+      
+   
+  </footer>
+  
+  
+
+<!-- End page content -->
+</div>
+<div class="container">
+
+</div>
+
+
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+  
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+
+</body>
+</html>
