@@ -1,0 +1,57 @@
+1. When a uniform flow is flowing through a doublet, resultant flow obtained is
+a) Flow past a Rankine oval of equal axes
+b) Flow past a circular cylinder
+c) All of the mentioned
+d) None of the mentioned
+
+
+2. How many stagnation points are present in a source and sink pair in a uniform flow
+a) Two
+b) Three
+c) One
+d) None
+
+3. Which of the following is not a type of superimposed flow?
+a) Source and sink pair in uniform flow.
+b) Double flow
+c) A source and sink pair in turbulent flow.
+d) A plane source in uniform flow
+
+4. In the equation for steam function due to source steam function is inversely proportional to magnitude at discharge
+a) True
+b) False
+
+
+5. Streamlines of doublet flow are family of circles tangent to a common axis.
+a) True
+b) False
+
+
+6. What is the characteristic of stagnation point
+a) Velocity is zero
+b) Acceleration is uniform
+c) Velocity is zero
+d) Acceleration is zero
+
+7. Potential lines for the source-sink pair will be eccentric non intersecting circles with their centers on the axis.
+a) True
+b) False
+
+8. What is the term used for a case where source and sink( both of them are of equal magnitude) approach each other such, distance between them reduces and product of distance and discharge magnitude remains constant.
+a) A plain pair
+b) A doublet source in uniform
+c) Hagen Poiseuille flow
+d) Coutte flow
+
+
+9. What type of flow is obtained by superimposing two definite flow types{( considering ideal condition)
+a) Ideal
+b) Potential
+c) Both
+d) None of the mentioned
+
+10. The nature of streamlines in a flow net obtained by the combination of source and sink is-
+a) Linear
+b) Curvilinear
+c) Circular
+d) Random

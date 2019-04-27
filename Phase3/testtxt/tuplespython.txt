@@ -1,0 +1,127 @@
+Question 1
+What is the output of the following program :
+print "Hello World"[::-1]
+
+A
+dlroW olleH
+B
+Hello Worl
+C
+d
+D
+Error
+
+
+Question 2
+Given a function that does not return any value, what value is shown when executed at the shell?
+A
+int
+B
+bool
+C
+void
+D
+None
+
+
+
+Question 3
+Which module in Python supports regular expressions?
+A
+re
+B
+regex
+C
+pyregex
+D
+None of the above
+
+
+Question 4
+What is the output of the following program :
+print 0.1 + 0.2 == 0.3
+
+A
+True
+B
+False
+C
+Machine dependent
+D
+Error
+
+
+Question 5
+Which of the following is not a complex number?
+A
+k = 2 + 3j
+B
+k = complex(2, 3)
+C
+k = 2 + 3l
+D
+k = 2 + 3J
+
+
+Question 6
+What does ~~~~~~5 evaluate to?
+A
++5
+B
+-11
+C
++11
+D
+-5
+
+
+
+Question 7
+Given a string s = “Welcome”, which of the following code is incorrect?
+A
+print s[0]
+B
+print s.lower()
+C
+s[1] = ‘r’
+D
+print s.strip()
+
+
+
+Question 8
+________ is a simple but incomplete version of a function.
+A
+Stub
+B
+Function
+C
+A function developed using bottom-up approach
+D
+A function developed using top-down approach
+
+
+Question 9
+To start Python from the command prompt, use the command ______
+A
+execute python
+B
+go python
+C
+python
+D
+run python
+
+
+
+Question 10
+Which of the following is correct about Python?
+A
+It supports automatic garbage collection.
+B
+It can be easily integrated with C, C++, COM, ActiveX, CORBA, and Java
+C
+Both of the above
+D
+None of the above
+

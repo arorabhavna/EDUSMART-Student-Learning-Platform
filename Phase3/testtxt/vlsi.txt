@@ -1,0 +1,64 @@
+1. _______ is used to start the initial sequence correctly
+a) preset
+b) clear
+c) preset and clear
+d) clock
+
+
+2. Preset and clear is used to
+a) initialize only first sequence
+b) correct first two sequences
+c) correct first and last sequence
+d) correct alternative sequences
+
+
+3. How can over-riding the normal initialization state be achieved?
+a) by adding preset
+b) by adding reset
+c) by adding gating in initialize control line
+d) by adding sourcing in initialize control line
+
+4. Asynchronous logic is driven by
+a) clock
+b) gating circuit
+c) self-clock
+d) self timing
+
+
+5. Which is better in terms of memory storage?
+a) synchronous circuits
+b) asynchronous circuits
+c) sequential circuits
+d) clocked circuits
+
+6. Which circuits are faster?
+a) synchronous circuits
+b) asynchronous circuits
+c) sequential circuits
+d) clocked circuits
+
+
+7. Which is more sensitive logic?
+a) synchronous circuits
+b) asynchronous circuits
+c) sequential circuits
+d) clocked circuits
+
+
+8. Which logic are difficult to design?
+a) synchronous circuits
+b) asynchronous circuits
+c) sequential circuits
+d) clocked circuits
+
+
+9. Automatic test pattern generators depend on
+a) map design
+b) layout design
+c) logic domain
+d) testing domain
+
+
+10. When a clock signal is gated with another signal like load signal, output is not affected.
+a) true
+b) false

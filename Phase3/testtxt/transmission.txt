@@ -1,0 +1,69 @@
+1.	Which of the following parameters is not a primary parameter?
+a)	Resistance
+b)	Attenuation constant
+c)	Capacitance
+d)	Conductance
+
+
+2.	The networks in which the R, L, C parameters are individually concentrated or lumped at discrete points in the circuit are called
+a)	Lumped
+b)	Distributed
+c)	Parallel
+d)	Paired
+
+
+3.	The lines having R, L, C distributed along the circuit are called
+a)	Lumped
+b)	Distributed
+c)	Parallel
+d)	Paired
+
+4.	Which primary parameter is uniformly distributed along the length of the conductor?
+a)	G
+b)	C
+c)	L
+d)	R
+
+
+5.	The primary parameter that is associated with the magnetic flux linkage is
+a)	R
+b)	L
+c)	C
+d)	G
+
+
+6.	The primary parameter that is associated with the electric charges is
+a)	G
+b)	R
+c)	C
+d)	L
+
+
+7.	The leakage current in the transmission lines is referred to as the
+a)	Resistance
+b)	Radiation
+c)	Conductance
+d)	Polarisation
+
+
+8.	Find the receiving impedance of a transmission line having a voltage of 24V and a conduction current of 1.2A is
+a)	25.2
+b)	22.8
+c)	28.8
+d)	20
+
+
+9.	The characteristic impedance of a transmission line with impedance and admittance of 16 and 9 respectively is
+a)	25
+b)	1.33
+c)	7
+d)	0.75
+
+
+10.	The propagation constant of a transmission line with impedance and admittance of 9 and 16 respectively is
+a)	25
+b)	144
+c)	12
+d)	7
+
+
