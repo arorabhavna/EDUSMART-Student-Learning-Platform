@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<title>LOGIN PAGE | LEARN SMART</title>
+<link rel="stylesheet" href="signup.css">
+<body>
+
+<div class="bgimg">
+  
+    <div class="container">
+    <form action="signup_validate_teacher.php" method="post" >
+    <h2 style="text-align:center;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">
+      
+     Teacher SignUp
+    </h2>
+
+    <label for="name"><b>Full Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="gender"><b>Gender</b></label>
+    <input type="radio" name="gender" value="M" checked> M
+    <input type="radio" name="gender" value="F"> F<br><br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required><br>
+
+    
+    <label for="desg"><b>Designation</b></label>
+    <select name="desg" required>
+    <option value="lecturer">Lecturer</option>
+    <option value="prof">Professor</option>
+    <option value="astprof">Assistant Professor</option>
+
+    </select><br>
+
+    <label for="dept"><b>DeptId</b></label>
+    <select name="deptid" required>
+    <option value="CS">CS</option>
+    <option value="EC">EC</option>
+    <option value="EEE">EEE</option>
+    <option value="ME">ME</option>
+    </select><br>
+
+    <label for="empid"><b>EmpId</b></label>
+    <input type="text" placeholder="Enter EmpId" name="empid" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="Password" placeholder="Enter Password" name="psw" required>
+
+    <label for="signup"><b>  </b></label>
+    <input type="submit" class="btn1" name="signup" style="background-color: #32CD32" value="SignUp">
+
+    
+  </form>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+

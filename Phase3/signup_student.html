@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<title>LOGIN PAGE | LEARN SMART</title>
+<link rel="stylesheet" href="signup.css">
+<body>
+
+<div class="bgimg">
+  
+    <div class="container">
+    <form action="signup_validate_student.php" method="post" >
+    <h2 style="text-align:center;font-family: Lucida Sans Unicode, Lucida Grande, sans-serif">
+      
+     Student SignUp
+    </h2>
+
+    <label for="name"><b>Full Name</b></label>
+    <input type="text" placeholder="Enter Name" name="name" required>
+
+    <label for="gender"><b>Gender</b></label>
+    <input type="radio" name="gender" value="M" checked> M
+    <input type="radio" name="gender" value="F"> F<br><br>
+
+    <label for="email"><b>Email</b></label>
+    <input type="email" placeholder="Enter Email" name="email" required><br>
+
+    
+    <label for="dob"><b>Date Of Birth</b></label>
+    <input type="date" name="dob" required>
+
+    <label for="dept"><b>DeptId</b></label>
+    <select name="DeptId" required>
+    <option value="CS">CS</option>
+    <option value="EC">EC</option>
+    <option value="EEE">EEE</option>
+    <option value="ME">ME</option>
+    </select><br>
+
+    <label for="usn"><b>USN</b></label>
+    <input type="text" placeholder="Enter USN" name="usn" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="Password" placeholder="Enter Password" name="psw" required>
+
+    <label for="signup"><b>  </b></label>
+    <input type="submit" class="btn1" name="signup" style="background-color: #32CD32" value="SignUp">
+
+    
+  </form>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
+
+
+
+
