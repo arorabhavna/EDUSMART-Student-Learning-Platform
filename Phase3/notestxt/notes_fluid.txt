@@ -1,0 +1,16 @@
+Forces on Fluid Elements
+
+Fluid Elements - Definition:
+
+Fluid element can be defined as an infinitesimal region of the fluid continuum in isolation from its surroundings.
+
+     Two types of forces exist on fluid elements
+Body Force: distributed over the entire mass or volume of the element. It is usually expressed per unit mass of the element or medium upon which the forces act.
+Example: Gravitational Force, Electromagnetic force fields etc. 
+Surface Force: Forces exerted on the fluid element by its surroundings through direct contact at the surface.
+    Surface force has two components:
+Normal Force: along the normal to the area
+Shear Force: along the plane of the area.
+The ratios of these forces and the elemental area in the limit of the area tending to zero are called the normal and shear stresses respectively.
+
+The shear force is zero for any fluid element at rest and hence the only surface force on a fluid element is the normal component.
